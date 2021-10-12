@@ -1,52 +1,38 @@
 <html>
-  <head>
-    <title>Mobilenet or Microsoft Azure</title>
+
+<head>
+  <title>Realtime Image Identification</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-  <body>
-    <center>
+</head>
 
-      <div class="col-xs-12 header_div">
-        <h1>Mobilenet or Microsoft Azure
-        </h1>
-      </div>
+<body background="background.jpg">
+  <center>
+    <h3 class = "btn btn-info heading">Realtime Image Identification
+      <hr>
+      <center>
+        <div class="col-lg-6 col-sm-6 col-xs-12 col-md-6 heading_div">
+          Model is trained on
+          <br><br>
+          <div class="btn btn-warning heading_div2">
+            Mom | Brother | Me | Sister
+          </div>
+        </div>
+  </center>
+  </h3>
+  </center>  
+  <br>
 
-      <oj>
-          <div class="text_images_and_result">
-              <li>
-                  <b>Test Image - </b><img src = "https://www.hydroflask.com/media/catalog/product/cache/f88319ddaa3658b8831e507eead00475/w/3/w32ts2-cobalt.jpg" class="img-responsive">
-              </li>
-              <h5>Output on <b>Microsoft Azure</b> -
-                   <span> Bottle </span>
-              </h5>
-              <h5>Output on <b>Mobilenet Model </b> - 
-                   <span> Water Bottle</span>
-              </h5>
-
-              <div class="bob3">
-                  <h4>Result - </h4>
-                  <hr>
-                  <h4> </h4>
-              </div>
-              
-            </div>
-
-            <hr>
-
-      </oj>
-
-    </center>
-
-  </body>
+<script src="main.js"></script>
+</body>
 
 </html>
 
